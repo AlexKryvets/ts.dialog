@@ -1,0 +1,21 @@
+<div ng-if="show" class="modal" pointer-events-none>
+    <div class="vertical-align">
+        <div>
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content clearfix">
+                    <div class="modal-header">
+                        <h4 class="modal-title">{{data.title}}</h4>
+                    </div>
+                    <div class="modal-body">
+                        {{data.message}}
+                        <input ng-if="showPrompt" type="text" ng-model="data.prompt">
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" style="width: 30%" ng-click="onOkClick()">Ok</button>
+                        <button ng-if="showCancel" class="btn btn-default" style="width: 30%" ng-click="onCancelClick()">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
