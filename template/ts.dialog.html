@@ -11,8 +11,8 @@
                         <input ng-if="showPrompt" type="text" ng-model="data.prompt">
                     </div>
                     <div class="modal-footer">
-                        <button ng-if="showCancel" class="btn btn-default" ng-click="onCancelClick()">Cancel</button>
-                        <button class="btn btn-primary" ng-click="onOkClick()">Ok</button>
+                        <button ng-if="showCancel" class="btn btn-default" ng-click="onCancelClick()">{{'CANCEL' | translate}}</button>
+                        <button class="btn btn-primary" ng-click="onOkClick()">{{'OK' | translate}}</button>
                     </div>
                 </div>
             </div>
