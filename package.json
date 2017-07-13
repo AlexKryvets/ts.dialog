@@ -1,0 +1,19 @@
+{
+  "name": "ts.dialog",
+  "version": "0.0.2",
+  "description": "ts.dialog",
+  "main": "ts.dialog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexKryvets/ts.dialog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexKryvets/ts.dialog/issues"
+  },
+  "homepage": "https://github.com/AlexKryvets/ts.dialog#readme"
+}
