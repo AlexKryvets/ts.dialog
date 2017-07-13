@@ -1,6 +1,6 @@
 {
   "name": "ts.dialog",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "ts.dialog",
   "main": "ts.dialog.js",
   "scripts": {
