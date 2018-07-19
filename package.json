@@ -1,10 +1,11 @@
 {
-  "name": "ts.dialog",
+  "name": "@teamsoft/dialog",
   "version": "0.0.4",
   "description": "ts.dialog",
   "main": "ts.dialog.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make:patch": "unleash --patch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AlexKryvets/ts.dialog/issues"
   },
-  "homepage": "https://github.com/AlexKryvets/ts.dialog#readme"
+  "homepage": "https://github.com/AlexKryvets/ts.dialog#readme",
+  "devDependencies": {
+    "unleash": "^2.0.1"
+  }
 }
