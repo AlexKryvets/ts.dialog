@@ -5,7 +5,7 @@
     angular.module('ts.dialog', ['ts.pointerEventsNone']).directive('tsDialog', [function () {
         return {
             restrict: 'E',
-            templateUrl: 'template/ts.dialog.html',
+            template: require('./template/ts.dialog.html'),
             scope: {
                 'dialog': '=fn'
             },
